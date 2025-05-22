@@ -1,41 +1,43 @@
-#contact{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 160px;
-    max-width: 1200px;
-    font-size: 25px;
+#contact {
+  padding: 20px;
 }
-#contact h1{
-    text-decoration: underline gainsboro;
-    display: in;
-    text-align: center;
+
+#contact h1 {
+  text-align: center;
+  color: #7dd3fc;
 }
-#form{
-    display: flex;
-    justify-content: center;
+
+#form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(30, 41, 59, 0.8);
+  border-radius: 10px;
 }
-#name{
-    max-width: 400px;
-    margin-bottom: 15px;
-    color: black;
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
 }
-#name input{
-    color: black;
+
+button {
+  background: #38bdf8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
-#email{
-    margin-bottom: 15px;
+
+button:hover {
+  background: #0ea5e9;
 }
-#email input{
-    color: black;
-}
-#msg{
-    margin-bottom: 15px;
-}
-#msg input{
-    color: black;
-}
-#submit-button{
-    color: black;
-    margin-left: 70px;
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1e293b;
+  color: #94a3b8;
+  margin-top: 40px;
 }
