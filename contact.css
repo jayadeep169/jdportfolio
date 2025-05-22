@@ -1,33 +1,42 @@
 #contact {
-  padding: 20px;
+  padding: 2rem;
+  text-align: center;
 }
 
 #contact h1 {
-  text-align: center;
-  color: #7dd3fc;
+  color: #38bdf8;
+  margin-bottom: 1.5rem;
 }
 
 #form {
   max-width: 400px;
   margin: auto;
-  padding: 20px;
-  background: rgba(30, 41, 59, 0.8);
-  border-radius: 10px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 15px rgba(14, 165, 233, 0.2);
 }
 
 input, button {
   width: 100%;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
   border: none;
-  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input {
+  background: #1e293b;
+  color: #e2e8f0;
 }
 
 button {
   background: #38bdf8;
   color: white;
   font-weight: bold;
-  cursor: pointer;
+  transition: 0.3s;
 }
 
 button:hover {
@@ -35,9 +44,18 @@ button:hover {
 }
 
 footer {
-  text-align: center;
+  margin-top: 40px;
   padding: 20px;
   background: #1e293b;
   color: #94a3b8;
-  margin-top: 40px;
+}
+
+footer img {
+  margin: 0 10px;
+  height: 25px;
+  transition: 0.3s;
+}
+
+footer img:hover {
+  transform: scale(1.2);
 }
