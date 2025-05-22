@@ -1,50 +1,70 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #0f172a;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
   color: #e2e8f0;
-  line-height: 1.6;
 }
 
 .portfolio-heading {
   text-align: center;
   padding: 40px;
   font-size: 3rem;
-  color: #7dd3fc;
-  text-shadow: 0 0 10px #38bdf8;
+  background: linear-gradient(to right, #67e8f9, #0ea5e9);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+}
+
+nav {
+  backdrop-filter: blur(8px);
+  background-color: rgba(15, 23, 42, 0.6);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  padding: 0;
-  background: #1e293b;
+  flex-wrap: wrap;
   margin: 0;
+  padding: 0;
 }
 
 nav li {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 nav a {
-  color: #e2e8f0;
+  color: #cbd5e1;
   text-decoration: none;
+  font-weight: 500;
   padding: 10px;
-  transition: 0.3s;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
-  background: #334155;
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #7dd3fc;
+  box-shadow: 0 0 10px #38bdf8;
 }
 
 #home-text {
   text-align: center;
   padding: 60px 20px;
   font-size: 2rem;
+  animation: fadein 1.2s ease;
 }
 
 #home-text span {
   color: #38bdf8;
+  font-weight: bold;
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
