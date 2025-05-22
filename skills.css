@@ -1,111 +1,36 @@
+#skills {
+  padding: 2rem;
+  text-align: center;
+}
 
-*{
-    color: gainsboro;
+#skills h1 {
+  color: #7dd3fc;
 }
-#skills{
-    margin-bottom: 160px;
-    font-size: 25px;
+
+#skills p {
+  margin-bottom: 1rem;
 }
-#skills h1,p{
-    color: gainsboro;
-    justify-content: center;
-    text-align: center;
+
+#skills > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
 }
-#skills h1{
-    text-decoration: underline gainsboro;
+
+#skills img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  transition: transform 0.3s;
 }
-#python{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+
+#skills img:hover {
+  transform: rotate(5deg) scale(1.1);
 }
-#pimg{
-    display: flex;
-    height: 30px;
-    width: 40px;
-    margin-right: 25px;
-}
-#pl p{
-    margin: 0px;
-    padding-top: 5px;
-}
-#pl{
-    display: flex;
-    text-align: center;
-}
-#java{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-#jimg{
-    display: flex;
-    height: 30px;
-    width: 40px;
-    margin-right: 30px;
-}
-#jl p{
-    margin: 0px;
-    padding-top: 5px;
-}
-#jl{
-    display: flex;
-    text-align: center;
-}
-#html{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-#himg{
-    display: flex;
-    height: 30px;
-    width: 38px;
-    margin-right: 20px;
-}
-#hl p{
-    margin: 0px;
-    padding-top: 5px;
-}
-#hl{
-    display: flex;
-    text-align: center;
-}
-#css{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-#cimg{
-    display: flex;
-    height: 40px;
-    width: 40px;
-    margin-right: 30px;
-}
-#cl p{
-    margin: 0px;
-    padding-top: 5px;
-}
-#cl{
-    display: flex;
-    text-align: center;
-}
-#javascript{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-#jsimg{
-    display: flex;
-    height: 40px;
-    width: 40px;
-    margin-right: 10px;
-}
-#jsl p{
-    margin: 0px;
-    padding-top: 5px;
-}
-#jsl{
-    display: flex;
-    text-align: center;
+
+#skills p {
+  font-size: 1.1rem;
+  color: #e2e8f0;
 }
