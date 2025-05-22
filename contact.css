@@ -1,61 +1,41 @@
-#contact {
-  padding: 2rem;
-  text-align: center;
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 160px;
+    max-width: 1200px;
+    font-size: 25px;
 }
-
-#contact h1 {
-  color: #38bdf8;
-  margin-bottom: 1.5rem;
+#contact h1{
+    text-decoration: underline gainsboro;
+    display: in;
+    text-align: center;
 }
-
-#form {
-  max-width: 400px;
-  margin: auto;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 0 15px rgba(14, 165, 233, 0.2);
+#form{
+    display: flex;
+    justify-content: center;
 }
-
-input, button {
-  width: 100%;
-  padding: 12px;
-  margin-top: 12px;
-  border-radius: 8px;
-  border: none;
-  font-size: 1rem;
+#name{
+    max-width: 400px;
+    margin-bottom: 15px;
+    color: black;
 }
-
-input {
-  background: #1e293b;
-  color: #e2e8f0;
+#name input{
+    color: black;
 }
-
-button {
-  background: #38bdf8;
-  color: white;
-  font-weight: bold;
-  transition: 0.3s;
+#email{
+    margin-bottom: 15px;
 }
-
-button:hover {
-  background: #0ea5e9;
+#email input{
+    color: black;
 }
-
-footer {
-  margin-top: 40px;
-  padding: 20px;
-  background: #1e293b;
-  color: #94a3b8;
+#msg{
+    margin-bottom: 15px;
 }
-
-footer img {
-  margin: 0 10px;
-  height: 25px;
-  transition: 0.3s;
+#msg input{
+    color: black;
 }
-
-footer img:hover {
-  transform: scale(1.2);
+#submit-button{
+    color: black;
+    margin-left: 70px;
 }
